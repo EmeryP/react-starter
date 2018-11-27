@@ -1,0 +1,59 @@
+@import './reset.scss';
+@import './core.scss';
+@import './mixins.scss';
+@import './variables.scss';
+
+
+
+
+body{
+  background: lighten($rootColor, 2);
+
+  header{
+    background: lighten($headerColor, 50);
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  h1{
+    color:$fontColor;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    text-align: center;
+    border: 10px solid $accentColor;
+    @include corners(10px);
+    margin: $marginSpace 25%;
+    padding: $paddingSpace;
+  }
+  
+  h2 {
+  color:$fontColor;
+  font-size: 50px;
+  text-align: center;
+  border: 5px solid $accentColor;
+  font-family: cursive;
+  width: 75%;
+  margin: $marginSpace 12.5%;
+  padding: $paddingSpace;
+  text-align: center;
+  @include corners(10px);
+  
+  }
+
+  footer {
+    color:$fontColor;
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid $accentColor;
+    font-family: cursive;
+    width: 75%;
+    margin: $marginSpace 12.5%;
+    margin-top: 35%; 
+    padding: $paddingSpace;
+    text-align: center;
+    @include corners(10px);
+    
+    }
+
+}
