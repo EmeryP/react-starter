@@ -1,5 +1,5 @@
 # React-Starter
-Used create-react-app to create a simple React app locally.
+The goal of this assignment was to practice using create-react-app to create a simple React app locally.
 
 ## Getting Started
 * Fork and clone this repo to your local machine
